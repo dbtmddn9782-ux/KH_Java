@@ -6,7 +6,7 @@ public class Product {
 	private String brand;
 	
 	public void information() {
-		
+		System.out.println(pName);
 	}
 
 }
