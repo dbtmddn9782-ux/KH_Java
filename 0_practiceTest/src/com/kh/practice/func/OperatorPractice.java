@@ -67,12 +67,13 @@ public class OperatorPractice {
 		int clas = sc.nextInt();
 		System.out.print("번호 : ");
 		int num = sc.nextInt();
+		sc.next();
 		System.out.print("성별(M/F) : ");
 		String gender = sc.nextLine();
 		System.out.print("성적(소수둘째까지) : ");
 		float grade = sc.nextFloat();
 		
-		if(gender =="M") {
+		if(gender =="M" || gender == "m") {
 			System.out.printf("%d학년 %d반 %d번 %s 남학생의 성적은 %.2f이다", ha, clas, num, name, grade);
 		}else {
 			System.out.printf("%d학년 %d반 %d번 %s 여학생의 성적은 %.2f이다", ha, clas, num, name, grade);
@@ -93,6 +94,10 @@ public class OperatorPractice {
 		} else {
 			System.out.println("성인");
 		}
+	}
+	
+	public void method7() {
+		
 	}
 	
 	

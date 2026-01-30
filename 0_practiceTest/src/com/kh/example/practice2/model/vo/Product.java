@@ -7,6 +7,8 @@ public class Product {
 	
 	public void information() {
 		System.out.println(pName);
+		System.out.println(price);
+		System.out.println(brand);
 	}
 
 }
